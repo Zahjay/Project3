@@ -35,7 +35,8 @@ handleChange(event){
               </label>
             <input type="submit" value="submit"/>
           </form>
-          <div>Current Borough: {this.state.value}</div>
+          <div> Current Borough:{this.state.value}</div>
+          <footer><h1> &#9400; YILP 2017 </h1></footer>
       </div>
     );
   }

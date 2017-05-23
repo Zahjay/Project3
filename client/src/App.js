@@ -5,6 +5,7 @@ import Index from './components/Index';
 //Importing React Router 
 import {
   BrowserRouter as Router,
+  Link,
   Route,
  
 } from 'react-router-dom'
@@ -18,10 +19,12 @@ class App extends Component {
         <div className="App">
         <nav>
           <ul>
+            <li><Link to="/signup">Sign Up</Link></li>
+            <li><Link to="/login"> Log In</Link></li>
               </ul>
             </nav>
           <main>
-            <Route path="/" component={Index}/>
+            <Route path="/" component={Index} />
           </main>
         </div>
       </Router>
