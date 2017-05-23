@@ -1,21 +1,30 @@
-.App {
-  text-align: center; }
+header {
+  background: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  img {
+    margin: 20px 0;
+  }
+}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: crimson;
+  a {
+    margin: 10px 0;
+  }
+}
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white; }
-
-.App-intro {
-  font-size: large; }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
+div.authentication {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: aqua;
+  a {
+    margin: 10px 0;
+  }
+}
