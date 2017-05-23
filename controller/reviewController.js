@@ -9,10 +9,10 @@ reviewController.index = (req,res) => {
         message: 'ok',
         data: {review}
       })
+    })
       .catch(err => {
-        console.log(err);
-        res.status(400).json({message: '400', err})
-      })
+      console.log(err);
+      res.status(400).json({message: '400', err})
     })
 }
 
