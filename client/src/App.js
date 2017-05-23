@@ -8,7 +8,7 @@ import {
   Link,
   Route,
  
-} from 'react-router-dom'
+} from 'react-router-dom';
 
 
 class App extends Component {
@@ -28,8 +28,6 @@ class App extends Component {
           </main>
         </div>
       </Router>
-      <div className="App">
-      </div>
     );
   }
 }
