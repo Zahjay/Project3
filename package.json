@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon app.js",
-    "start":"node app.js",
-    "debugger":"DEBUG=*:* npm run dev"
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "debugger": "DEBUG=*:* npm run dev"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "cors": "^2.8.3",
     "express": "^4.15.3",
     "morgan": "^1.8.1",
-    "pg-promise": "^5.7.1"
+    "pg-promise": "^5.7.1",
+    "react-router-dom": "^4.1.1"
   }
 }
