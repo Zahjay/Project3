@@ -19,5 +19,5 @@ CREATE TABLE IF NOT EXISTS reviews (
   id BIGSERIAL PRIMARY KEY,
   review VARCHAR(255),
   location INTEGER REFERENCES location(id),
-  user_id INTEGER REFERENCES users(id)
+  name INTEGER REFERENCES users(id)
 );
