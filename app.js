@@ -25,7 +25,7 @@ app.get('/',function(req,res){
 
 const reviewRoutes = require('./routes/reviewRoutes');
 
-app.use('/api/reviews', yilpRoutes);
+app.use('/api/reviews', reviewRoutes);
 
 app.get('*',function(req,res){
   res.status(404).send({message: 'Opps! Not found.'})

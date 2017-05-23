@@ -1,7 +1,7 @@
 const express = require('express');
-const reviewController = require('../controller/yilpController');
+const reviewController = require('../controller/reviewController');
 
-const yilpRoutes = express.Router();
+const reviewRoutes = express.Router();
 
 reviewRoutes.get('/',reviewController.index);
 
