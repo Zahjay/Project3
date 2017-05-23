@@ -8,7 +8,7 @@ import {
   Link,
   Route,
  
-} from 'react-router-dom'
+} from 'react-router-dom';
 
 
 class App extends Component {
