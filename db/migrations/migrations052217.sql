@@ -1,3 +1,4 @@
+CREATE DATABASE yilp_dev;
 
 \c yilp_dev
 

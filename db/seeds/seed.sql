@@ -4,7 +4,7 @@ INSERT INTO users (name, email, password) VALUES
 ('John Doe','JohnDoe@gmail.com','***********');
 
 INSERT INTO location (location) VALUES 
-('Bronx');
+('Bronx'),('Brooklyn'),('Manhattan'),('Queens'),('Staten_Islan');
 
 INSERT INTO reviews (review, location, user_id) VALUES 
 ('It Stinks and it just sucks',1,1);

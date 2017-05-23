@@ -28,8 +28,6 @@ class App extends Component {
           </main>
         </div>
       </Router>
-      <div className="App">
-      </div>
     );
   }
 }
