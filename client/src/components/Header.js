@@ -3,7 +3,12 @@ import React, {Component} from 'react';
 class Header extends Component{
   render(){
     return(
-      <h1>Name of Borough</h1>
+      <div className="userName"> 
+        <img/>
+        <p> User Name </p> 
+        <img src={logo} className="App-logo" alt="YILP" />
+        <div className="iconRightSide"> </div>
+      </div>
     );
   }
 }
