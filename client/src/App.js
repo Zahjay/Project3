@@ -11,6 +11,7 @@ import {
 
 //import components
 import Index from './components/Index.jsx';
+import  Boroughpage  from './components/Boroughpage.jsx';
 // import Header from './components/Header.jsx';
 // import Nav from './components/Nav.jsx';
 
@@ -19,9 +20,8 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-
           <Route exact path="/" component={ Index } />
-
+          <Route exact path="/:boroughpage" component={Boroughpage} />
         </div>
       </Router>
     );
