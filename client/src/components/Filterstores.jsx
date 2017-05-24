@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import 
 {Tabs,
   Tab} from 'react-bootstrap';
-
+  
 class Filterstores extends Component{
   render(){
    return(

@@ -6,6 +6,7 @@ import Filterstores  from './Filterstores.jsx';
 
 import Headborough from './Headborough.jsx';
 
+import Toogle from './Toogle.jsx';
 
 class Boroughpage extends Component{
 
@@ -13,6 +14,7 @@ class Boroughpage extends Component{
     return(
         <div>
             <Headborough/>
+            <img src="placeholder.png" alt="Borough Pics" />
             <Filterstores />
             <main>
             <form onSubmit={this.handleSubmit}>
