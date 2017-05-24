@@ -3,10 +3,11 @@ import React, {Component} from 'react';
 class Storecontent extends Component{
   render(){
     return(
-      <div className="Storecontent">
+      <div className="Div-Storecontent">
       <div>
+
       <section className="Store-content-pics">
-       <img src="http://www.danielarestaurant.com/images/pnp2.jpg" alt="Pic from api"/> 
+       <img src="http://www.danielarestaurant.com/images/pnp2.jpg" alt="Pic from api" /> 
        </section>
 
        <div classname="Store-content-text">
