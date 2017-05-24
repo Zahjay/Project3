@@ -4,8 +4,8 @@ class Header extends Component {
 	render() {
 		return(
 			<header>
-				<img src="placeholder.png" alt="the Yilp logo" />
-				<p>Welcome to Yilp</p>
+				<img src="img/yilp.png" alt="the Yilp logo" />
+				<h1>Welcome!</h1>
 			</header>
 		)
 	}

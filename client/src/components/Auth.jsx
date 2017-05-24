@@ -1,19 +1,14 @@
 import React, { Component } from 'react'
 
-import {
-  BrowserRouter as Router,
-  Link,
-  Route,
- 
-} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 class Auth extends Component {
 	render() {
 		return(
 			<div className="authentication">
-				<ul>
-					<li><Link to="/signup">Signup</Link></li>
-					<li><Link to="/login">Login</Link></li>
+				<ul className="btn_list">
+					<li className="btn"><Link to="/signup">Signup</Link></li>
+					<li className="btn"><Link to="/login">Login</Link></li>
 				</ul>
 			</div>
 		)

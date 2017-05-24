@@ -1,22 +1,17 @@
 import React, { Component } from 'react'
 
-import {
-  BrowserRouter as Router,
-  Link,
-  Route,
- 
-} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 class Nav extends Component {
 	render() {
 		return(
 			<nav>
-				<ul>
-					<li><Link to="/brooklyn">Brooklyn</Link></li>
-					<li><Link to="/manhattan">Manhattan</Link></li>
-					<li><Link to="/queens">Queens</Link></li>
-					<li><Link to="/bronx">Bronx</Link></li>
-					<li><Link to="/staten_island">Staten Island</Link></li>
+				<ul className="btn_list">
+					<li className="btn"><Link to="/brooklyn">Brooklyn</Link></li>
+					<li className="btn"><Link to="/manhattan">Manhattan</Link></li>
+					<li className="btn"><Link to="/queens">Queens</Link></li>
+					<li className="btn"><Link to="/bronx">Bronx</Link></li>
+					<li className="btn"><Link to="/staten_island">Staten Island</Link></li>
 				</ul>
 			</nav>
 		)
