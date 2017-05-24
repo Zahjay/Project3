@@ -1,3 +1,12 @@
+//global
+ul {
+  list-style: none;
+  li {
+    margin: 20px 0;
+  }
+}
+
+//header
 header {
   background: aqua;
   display: flex;
@@ -9,19 +18,15 @@ header {
   }
 }
 
+//nav
 nav {
   display: flex;
   flex-direction: column;
   align-items: center;
   background: crimson;
-  ul {
-    list-style: none;
-    li {
-      margin: 20px 0;
-    }
-  }
 }
 
+//authentication box
 div.authentication {
   display: flex;
   flex-direction: column;
