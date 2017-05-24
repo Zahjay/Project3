@@ -26,6 +26,7 @@
     "morgan": "^1.8.1",
     "node-yelp-v3": "^2.3.0",
     "pg-promise": "^5.7.1",
+    "react-bootstrap": "^0.31.0",
     "react-router-dom": "^4.1.1"
   }
 }
