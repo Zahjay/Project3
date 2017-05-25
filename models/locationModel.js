@@ -22,26 +22,7 @@ location.findImage = () => {
     `
   );
 };
-// review.create = (review) => {
-//   return db.one(
-//     `
-//     INSERT INTO reviews(review)
-//     VALUES($1)
-//     RETURNING *
-//     `,
-//     [review.review])
-//     .then(link => {
-//       return db.one(
-//         `
-//         INSERT INTO users(name)
-//         VALUES($1)
-//         RETURNING *
-//         `,
-//         [review]
-//       )
-//     })
-//   )
-// }
+
 
 
 module.exports = location
