@@ -8,7 +8,7 @@ import Auth from './Auth.jsx';
 class Index extends Component {
 	render() {
 		return(
-			<div>
+			<div className="index">
 				<Header />
 				<Nav />
 				<Auth />
