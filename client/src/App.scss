@@ -70,3 +70,53 @@ div.authentication {
   box-sizing: border-box;
   height: 18vh;
 }
+
+// Container for userpic and logo
+.Headborough-div-userinfo{
+ background-color: yellow;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ padding: 20px; 
+}
+
+//user pic
+.Userpic{
+  height:35px;
+  padding-right:16px;
+  margin-top:8px; 
+}
+
+// logo
+.Borough-logo{
+  height:70px;
+}
+
+// Main pic
+.Boruough-pic{
+height: 40vh;
+}
+
+// Tab in Mixedtab.jsx 
+#uncontrolled-tab-example{
+text-align: center;
+color: white;
+font-weight: bold;
+font-size: 20px;
+background-color:purple;
+}
+
+//First tab in Mixedtab.jsx
+.Foodtab{
+  background-color:blue;
+}
+
+//Second tab in Mixedtab.jsx
+.Nighttab{
+ background-color:plum;
+}
+
+//Third tab in Mixedtab.jsx
+.Retailtab{
+ background-color: gold;
+}

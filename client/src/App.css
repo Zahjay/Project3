@@ -52,3 +52,37 @@ div.authentication {
   background: silver;
   box-sizing: border-box;
   height: 18vh; }
+
+.Headborough-div-userinfo {
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px; }
+
+.Userpic {
+  height: 35px;
+  padding-right: 16px;
+  margin-top: 8px; }
+
+.Borough-logo {
+  height: 70px; }
+
+.Boruough-pic {
+  height: 40vh; }
+
+#uncontrolled-tab-example {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: purple; }
+
+.Foodtab {
+  background-color: blue; }
+
+.Nighttab {
+  background-color: plum; }
+
+.Retailtab {
+  background-color: gold; }
