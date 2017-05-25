@@ -26,7 +26,6 @@ class Mixedtab extends Component{
                 </div>
               </div>
 
-
               <ul className="nav nav-tabs"eventKey={3}>
                 <li className="active"><a data-toggle="tab" href="#About-us" eventKey={1}>About Us</a></li>
                 <li ><a data-toggle="tab" href="#Store-info" eventKey={2}>Store Info</a></li>
