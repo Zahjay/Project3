@@ -23,9 +23,10 @@ app.get('/',function(req,res){
   res.sendFile(__dirname + '/public/index.html');
 });
 
-const reviewRoutes = require('./routes/reviewRoutes');
+const locationRoutes = require('./routes/locationRoutes');
 
-app.use('/api/reviews', reviewRoutes);
+app.use('/api/location', locationRoutes);
+app.use('/api/location/reviews', locationRoutes)
 
 app.get('*',function(req,res){
   res.status(404).send({message: 'Opps! Not found.'})

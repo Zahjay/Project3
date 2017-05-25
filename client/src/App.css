@@ -12,13 +12,17 @@ ul.btn_list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
   ul.btn_list li.btn {
-    padding: 15px;
     background: aqua;
     margin: 2px;
     width: 50%;
-    text-align: center; }
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em; }
     ul.btn_list li.btn * {
       text-decoration: none;
       color: #000; }
@@ -27,6 +31,7 @@ header {
   background: aqua;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   box-sizing: border-box;
   height: 42vh; }
@@ -82,3 +87,23 @@ div.authentication {
 
 .Retailtab {
   background-color: gold; }
+@media only screen and (min-width: 769px) {
+  body {
+    background: aqua; }
+  header {
+    height: 33vh; }
+  nav {
+    height: 34vh;
+    width: 70%;
+    margin: 20px auto; }
+    nav ul.btn_list {
+      width: 80%;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center; }
+  div.authentication {
+    height: 25vh;
+    width: 40%;
+    margin: 20px auto; }
+    div.authentication ul.btn_list {
+      justify-content: center; } }
