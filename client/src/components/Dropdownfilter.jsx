@@ -6,14 +6,13 @@ class Dropdownfilter extends Component{
         <form>
           <label>
             Sorted by: Best Match
-            <select>
-              <option value=" Most Reviewed"> Most Reviewed </option>
-              <option value="Higest Rated"> Higest Rated </option>
-              <option selected value="Price"> Price </option>
+            <select defaultValue="Most Reviewed">
+              <option value="Most Reviewed">Most Reviewed</option>
+              <option value="Highest Rated">Highest Rated</option>
+              <option value="Price">Price</option>
             </select>
           </label>
         </form>
-
     );
   }
  }
