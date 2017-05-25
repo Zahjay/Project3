@@ -1,8 +1,8 @@
 const db = require('../db/config');
 
-const review = {};
+const location = {};
 
-review.findAll = () => {
+location.findReviews = () => {
 return db.query(
   `
  SELECT reviews.review, reviews.location, reviews.name, users.name, location.location
@@ -13,6 +13,15 @@ return db.query(
   );
 };
 
+location.findImage = () => {
+  return db.query(
+    `
+    SELECT pictures.link, pictures.location, location.location
+    FROM pictures
+    INNER JOIN location ON pictures.location = location.id
+    `
+  );
+};
 // review.create = (review) => {
 //   return db.one(
 //     `
@@ -35,4 +44,4 @@ return db.query(
 // }
 
 
-module.exports = review
+module.exports = location
