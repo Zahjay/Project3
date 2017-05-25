@@ -31,6 +31,7 @@ header {
   background: aqua;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   box-sizing: border-box;
   height: 42vh; }
@@ -90,3 +91,24 @@ div.authentication {
 .Store-content-text {
   display: flex;
   justify-content: justify; }
+
+@media only screen and (min-width: 769px) {
+  body {
+    background: aqua; }
+  header {
+    height: 33vh; }
+  nav {
+    height: 34vh;
+    width: 70%;
+    margin: 20px auto; }
+    nav ul.btn_list {
+      width: 80%;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center; }
+  div.authentication {
+    height: 25vh;
+    width: 40%;
+    margin: 20px auto; }
+    div.authentication ul.btn_list {
+      justify-content: center; } }

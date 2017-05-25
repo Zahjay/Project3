@@ -15,6 +15,12 @@ CREATE TABLE IF NOT EXISTS location (
   location VARCHAR(255)
 );
 
+CREATE TABLE IF NOT EXISTS pictures (
+  id BIGSERIAL PRIMARY KEY,
+  link VARCHAR,
+  location INTEGER REFERENCES location(id)
+);
+
 CREATE TABLE IF NOT EXISTS reviews (
   id BIGSERIAL PRIMARY KEY,
   review VARCHAR(255),
