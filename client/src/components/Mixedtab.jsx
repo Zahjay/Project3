@@ -12,7 +12,6 @@ class Mixedtab extends Component{
                 <Tab eventKey={1} title="Store Info"> Store Info Content</Tab>
                 <Tab eventKey={2} title="Borough Review"> Borough Reviews</Tab>
               </Tabs>
-          < Dropdownfilter/>
       </div>
     );
   }
