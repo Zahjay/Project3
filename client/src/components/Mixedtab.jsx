@@ -8,6 +8,7 @@ class Mixedtab extends Component{
   render(){
     return(
       <div className="Mixedtab">
+         
                <Tabs defaultActiveKey={2} id="uncontrolled-tab-example">
                 <Tab eventKey={1} title="Store Info"> Store Info Content</Tab>
                 <Tab eventKey={2} title="Borough Review"> Borough Reviews</Tab>

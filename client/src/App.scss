@@ -121,6 +121,13 @@ background-color:purple;
  background-color: gold;
 }
 
+}
+
+.Store-content-text{
+ display: flex;
+  justify-content:justify;
+}
+
 //media query
 @media only screen and (min-width: 769px) {
   body {
@@ -156,4 +163,6 @@ background-color:purple;
       justify-content: center;
     }
   }
+}
+
 }

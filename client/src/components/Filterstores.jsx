@@ -9,15 +9,14 @@ class Filterstores extends Component{
       <div>
           <div className="Navthreeoptions">
                <Tabs defaultActiveKey={2} id="uncontrolled-tab-example">
-                <Tab eventKey={1} title="Food" className="Foodtab"> Restaurant Content</Tab>
-                <Tab eventKey={2} title="Night" className="Nighttab"> <Storelist/>
+                <Tab eventKey={1} title="Food" className="Foodtab"> <Storelist/></Tab>
+                <Tab eventKey={2} title="Night" className="Nighttab"> 
                 </Tab>
-                <Tab eventKey={3} title="Retail" className="Nighttab">Shopping Locations</Tab>
+                <Tab eventKey={3} title="Retail" className="Nighttab"><Storelist/></Tab>
               </Tabs>
           </div>
         
-        </div>
-      
+        </div>     
    );
   }
 }
